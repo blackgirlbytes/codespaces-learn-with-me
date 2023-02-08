@@ -12,15 +12,19 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "src/App.js"
+        "placeholder"
       ]
-	},
-	"vscode": {
-		"extensions": [
-			"vsls-contrib.codetour",
-			"gabrielgrinberg.auto-run-command"
-		]
-	}
+    },
+    "vscode": {
+      "settings": {
+        "comments.openView": "never",
+        "workbench.startupEditor": "none"
+      },
+      "extensions": [
+        "vsls-contrib.codetour",
+        "gabrielgrinberg.auto-run-command"
+      ]
+    }
   },
   "portsAttributes": {
     "3000": {
@@ -28,5 +32,7 @@
       "onAutoForward": "openPreview"
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [
+    3000
+  ]
 }
