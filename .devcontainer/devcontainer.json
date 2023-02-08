@@ -12,7 +12,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "placeholder"
+        "src/App.js"
       ]
     },
     "vscode": {
@@ -21,8 +21,7 @@
         "workbench.startupEditor": "none"
       },
       "extensions": [
-        "vsls-contrib.codetour",
-        "gabrielgrinberg.auto-run-command"
+        "vsls-contrib.codetour"
       ]
     }
   },
